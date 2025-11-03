@@ -19,9 +19,11 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
+    login,
+    echo,
     tripguide,
+    ecom,
+    todo,
     threejs,
     a,
     aa,
@@ -230,12 +232,12 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-      demo_link: "http://www.demo.com" ,
+      image: login,
+      source_code_link: "https://github.com/B-l-i-n-k-e-r/Login",
+      demo_link: "https://b-l-i-n-k-e-r.github.io/Login/" ,
     },
     {
-      name: "ChatRoom",
+      name: "Echo Mind",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -252,9 +254,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-      demo_link: "http://www.demo.com" ,
+      image: echo,
+      source_code_link: "https://github.com/B-l-i-n-k-e-r/ChatRoom",
+      demo_link: "https://b-l-i-n-k-e-r.github.io/ChatRoom/" ,
     },
     {
       name: "To-Do-List",
@@ -274,9 +276,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-      demo_link: "http://www.demo.com" ,
+      image: todo,
+      source_code_link: "https://github.com/B-l-i-n-k-e-r/To-Do-List",
+      demo_link: "https://b-l-i-n-k-e-r.github.io/To-Do-List/" ,
     },
     {
       name: "Votting App",
@@ -394,11 +396,11 @@ import {
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "Laravel",
+          name: "CSS",
           color: "blue-text-gradient",
         },
         {
-          name: "MySQL",
+          name: "Blade",
           color: "green-text-gradient",
         },
         {
@@ -406,9 +408,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-      demo_link: "http://www.demo.com" ,
+      image: ecom,
+      source_code_link: "https://github.com/B-l-i-n-k-e-r/e-commerce-app",
+      demo_link: "https://b-l-i-n-k-e-r.github.io/e-commerce-app/" ,
     },
   ];
   

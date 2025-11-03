@@ -26,9 +26,11 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import login from "./login.png";
+import echo from "./echo.png";
 import tripguide from "./tripguide.png";
+import ecom from "./ecom.png"
+import todo from "./todo.png"
 import a from "./a.png";
 import aa from "./aa.jpeg";
 import aaa from "./aaa.png";
@@ -59,9 +61,11 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
+  login,
+  echo,
+  todo,
   tripguide,
+  ecom,
   a,
   aa,
   aaa,
