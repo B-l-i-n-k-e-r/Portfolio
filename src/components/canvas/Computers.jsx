@@ -5,11 +5,11 @@ import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import CanvasLoader from '../Loader';
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF(`${import.meta.env.BASE_URL}desktop_pc/scene.gltf`);
+  const computer = useGLTF("./desktop_pc/scene.gltf");
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor='black' />
+      <hemisphereLight intensity={0.15} groundColor='transparent' />
       <spotLight
         position={[-20, 50, 10]}
         angle={0.12}
@@ -34,7 +34,7 @@ const ComputersCanvas = () => {
 
   useEffect(() => {
     // Add a listener for changes to the screen size
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
+    const mediaQuery = window.matchMedia("(max-width: auto)");
 
     // Set the initial value of the `isMobile` state variable
     setIsMobile(mediaQuery.matches);
