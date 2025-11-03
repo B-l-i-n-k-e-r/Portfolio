@@ -281,7 +281,7 @@ import {
       demo_link: "https://b-l-i-n-k-e-r.github.io/To-Do-List/" ,
     },
     {
-      name: "Votting App",
+      name: "U-Vote",
       description:
         "",
               tags: [
