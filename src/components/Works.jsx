@@ -98,7 +98,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-green-950 dark:text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          * These projects highlight my journey as a developer — combining design,
+          * These are the works I have done on my journey as a developer — combining design,
           performance, and functionality. Each one demonstrates problem-solving,
           code quality, and creativity with real-world use cases.
         </motion.p>

@@ -128,7 +128,7 @@ import {
       icon: docker,
     },
   ];
-   
+  
   const experiences = [
     {
       title: "React.js Developer",
@@ -213,10 +213,10 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Login Page",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
+        "A login page sample that accept user details(UserName and Password) and redirects the user to a dashboard. It also allow signup for new users and changing of password if forgot.",      
+        tags: [
         {
           name: "react",
           color: "blue-text-gradient",
@@ -235,20 +235,20 @@ import {
       demo_link: "http://www.demo.com" ,
     },
     {
-      name: "Job IT",
+      name: "ChatRoom",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "php",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
@@ -257,20 +257,152 @@ import {
       demo_link: "http://www.demo.com" ,
     },
     {
-      name: "Trip Guide",
+      name: "To-Do-List",
+      description:
+        "",
+              tags: [
+        {
+          name: "C",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+      demo_link: "http://www.demo.com" ,
+    },
+    {
+      name: "Votting App",
+      description:
+        "",
+              tags: [
+        {
+          name: "JavaScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "React",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+      demo_link: "http://www.demo.com" ,
+    },
+    {
+      name: "Magmanect",
+      description:
+        "",
+              tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "PHP",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Django",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+      demo_link: "http://www.demo.com" ,
+    },
+    {
+      name: "News App",
+      description:
+        "",
+              tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Django",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+      demo_link: "http://www.demo.com" ,
+    },
+    {
+      name: "M-Pay Scan",
+      description:
+        "",
+              tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "PHP",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Django",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+      demo_link: "http://www.demo.com" ,
+    },
+    {
+      name: "MbScreen",
+      description:
+        "",
+              tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "PHP",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Django",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+      demo_link: "http://www.demo.com" ,
+    },
+    {
+      name: "E-Commerce Website",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
+          name: "Laravel",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "MySQL",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "PHP",
           color: "pink-text-gradient",
         },
       ],
