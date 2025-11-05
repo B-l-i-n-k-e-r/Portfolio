@@ -30,6 +30,10 @@ import login from "./login.png";
 import echo from "./echo.png";
 import tripguide from "./tripguide.png";
 import ecom from "./ecom.png"
+import vote from "./vote.png"
+import ai from "./ai.jpg"
+import scan from "./scan.gif"
+import movie from "./movie.jpg"
 import todo from "./todo.png"
 import a from "./a.png";
 import aa from "./aa.jpeg";
@@ -66,6 +70,10 @@ export {
   todo,
   tripguide,
   ecom,
+  vote,
+  ai,
+  scan,
+  movie,
   a,
   aa,
   aaa,

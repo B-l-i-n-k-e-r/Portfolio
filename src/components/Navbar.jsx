@@ -20,7 +20,7 @@ const ThemeToggle = ({ className = "" }) => {
   return (
     <button
       onClick={() => setDarkMode(!darkMode)}
-      className={`bg-blue-200 dark:bg-gray-800 hover:bg-blue-400 p-2 rounded-full text-xl shadow-md hover:scale-105 transition-all duration-300 ${className}`}
+      className={`bg-blue-200 dark:bg-gray-800 hover:bg-blue/400 p-2 rounded-full text-xl shadow-md hover:scale-105 transition-all duration-300 ${className}`}
       title="Toggle theme"
     >
       {darkMode ? "🌞" : "🌙"}
@@ -131,7 +131,7 @@ const Navbar = () => {
                     className={`px-4 py-2 rounded-xl text-[16px] font-medium transition-all duration-300 ${
                       active === nav.id
                         ? "bg-blue-600 text-white shadow-lg shadow-blue-500/50"
-                        : "bg-blue-100 dark:bg-gray-800 text-blue-700 dark:text-gray-300 hover:bg-blue-400 hover:text-white"
+                        : "bg-blue-100 dark:bg-gray-800 text-blue-700 dark:text-gray-300 hover:bg-blue-400 hover:dark:bg-blue-400 hover:text-white"
                     }`}
                   >
                     {nav.title}
